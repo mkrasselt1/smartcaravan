@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SmartCaravan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <script src="/jquery.js" type="text/javascript"></script>
+  <script src="/code.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+  <h1>SmartCaravan</h1>
+  <p>
+    <meter id="water_level_gauge" min="0" max="100" low="33" high="66" optimum="80" value="50"></meter>
+    <span class="sensor-labels">Wasserstand</span>
+    <span id="water_level">XXX</span>
+    <sup class="units">L</sup>
+  </p>
+  <p>
+    <meter id="battery_level_gauge" min="12.6" max="15.5" low="13.4" high="14.4" optimum="13.8" value="12.6"></meter>
+    <span class="sensor-labels">Batteriestand</span>
+    <span id="battery_level">XXX</span>
+    <sup class="units">V</sup>
+  </p>
+  <p>
+    <span class="sensor-labels">Ladung</span>
+    <span id="charge">XXX</span>
+  </p>
+  <p>
+    <span class="sensor-labels">Fehler</span>
+    <span id="error">XXX</span>
+  </p>
+  <p>
+    <span class="sensor-labels">Model</span>
+    <span id="model">XXX</span>
+  </p>
+  <p>
+    <span class="sensor-labels">Serialnumber</span>
+    <span id="serialnumber">XXX</span>
+  </p>
+  <p>
+    <span class="sensor-labels">Firmware</span>
+    <span id="firmware">XXX</span>
+  </p>
+  <p>
+    <span class="sensor-labels" id="debug">Rest</span>
+    <span id="all" style="display:none">XXX</span>
+    <sup class="units">JSON</sup>
+  </p>
+</body>
+
+</html>
